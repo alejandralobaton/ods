@@ -1,0 +1,19 @@
+<div class="wrappercontainer wrappercontainer-dark2 wrappercontainer-padded" id="escola">
+    <section class="container escola" >
+        
+        <div class="escola_content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y0md8kdFgx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="escola_content">
+        <h2 class="escola_title">Noticias e links de interesse</h2>
+        <p> <ul> <li><a href="https://summitagro.estadao.com.br/sustentabilidade/agricultura-sustentavel-brasileira-ganha-interesse-internacional/" target="_blank" >Agricultura sustentável brasileira ganha interesse internacional  
+            21 de junho de 2023
+            4 mins. de leitura Agronegócio preocupado com sustentabilidade ambiental ganha destaque internacional e práticas brasileiras podem ser copiadas</a></li>
+            <li><a href="https://g1.globo.com/economia/noticia/2023/07/12/brasil-tem-101-milhoes-de-brasileiros-passando-fome-e-703-milhoes-em-inseguranca-alimentar-aponta-onu.ghtml"  target="_blank" >Brasil tem mais de 21 milhões de pessoas que não têm o que comer todos os dias e 70,3 milhões em insegurança alimentar, diz ONU
+                No mundo, são 735 milhões de pessoas passando fome e 2,3 bilhões em situação de insegurança alimentar. 
+                Segundo o relatório, o Brasil tem 10 milhões de pessoas desnutridas.</a></li>
+                       
+       </ul></p>
+    </div>
+</section>
+</div>

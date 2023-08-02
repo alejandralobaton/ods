@@ -1,0 +1,87 @@
+html{
+    background-image: url(imagens/HEADER-NOTICIAS-2.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+form{
+width:90%;
+min-width: 28.125em;
+max-width: 35em;
+background-color:rgb(16, 51, 16);
+padding:1em ;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+    }
+  
+label,input,textarea{
+    display:block ;
+    width:100% ;
+    box-sizing: border-box;
+}
+
+input,textarea{
+background-color: rgba(207, 194, 194, 0.3);
+border: 2px solid transparent;
+border-bottom-color: beige;
+padding: .75em;
+margin: .5em 0 2.5em;
+color:white;
+outline: 0;
+}
+/*
+input:invalid , textarea:invalid{
+    background-color: red
+}
+/*
+input:invalid , textarea:valid{
+    background-color: green;
+}
+*/
+
+input:focus, textarea:focus{
+  background-color: white; 
+  color: black; 
+
+}
+
+input:valid:focus , textarea:valid:focus{
+    border-bottom: 2px solid #0ec72a;
+   
+}
+
+input:focus , textarea:focus{
+    border-bottom: 2px solid #8e999a;
+    background-color: #b7acac;
+
+}
+
+
+legend{
+    padding: .5em;
+    text-align: center;
+    font-weight: bold;
+    color: #8e999a;
+    font-size:1.3em ;
+}
+
+.btn{
+background-color: #646161;
+color: white;
+cursor: pointer;
+padding: .7em;
+font-size: 1.2em;
+border: none;
+}
