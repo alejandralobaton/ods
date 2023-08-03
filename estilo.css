@@ -15,7 +15,7 @@ html{font: 400 62.5% 'Inter', sans-serif;
 p,a,ul,li{ font-size: 1.6rem;}
 
 h1{
-    font-size: 4.4rem;
+    font-size: 4.8rem;
     text-shadow: 3px 5px 0 rgb(220, 165, 146);
 }
 
@@ -37,7 +37,7 @@ nav a {
     border-radius: 4px;
     font-size: 1,8rem;
     text-decoration:none ;
-    padding: 1.6rem 8.6rem;
+    padding: 1.6rem 4.6rem;
     display: inline-block;
     color: inherit;
 }
@@ -67,13 +67,6 @@ nav a {
 }
 
 
-.wrappercontainer-light div {
-background-color: #fafafa;
-
-}
-
-
-
 .container{
     max-width: 127.6rem;
     margin: auto;
@@ -85,7 +78,7 @@ background-color: #fafafa;
     text-align: center;
 }
 .section_btn{
-    margin: 7rem 0;
+    margin: 3rem 0;
 }
 
 .header{
@@ -221,14 +214,14 @@ a {text-decoration: none ;
  
  .contatos_address{
     text-align: right;
-    font: 400 1.8rem "inter", sans-serif;
-    padding: 3rem 0;
+    font: 400 1.6rem "inter", sans-serif;
+    padding: 1rem 0;
  }
  
  .footer{
     font-size: 1.6rem;
     text-align: center;
-    padding: 4.5rem;
+    padding: 6.5rem;
  }
  .footer a {
     color: inherit;
