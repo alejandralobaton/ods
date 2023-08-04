@@ -1,5 +1,6 @@
 html{
     background-image: url(imagens/HEADER-NOTICIAS-2.png);
+    background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -9,7 +10,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-margin: 0;
+margin: 5%;
+zoom: 0.75;
 }
 
 form{
@@ -41,15 +43,7 @@ margin: .5em 0 2.5em;
 color:white;
 outline: 0;
 }
-/*
-input:invalid , textarea:invalid{
-    background-color: red
-}
-/*
-input:invalid , textarea:valid{
-    background-color: green;
-}
-*/
+
 
 input:focus, textarea:focus{
   background-color: white; 

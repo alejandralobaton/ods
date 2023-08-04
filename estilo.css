@@ -1,6 +1,8 @@
 body {
+    zoom: 0.75;
     background-image: linear-gradient(45deg,white, rgb(232, 212, 206) 100%);
     background-size: cover;
+
 }
 
 :root{
@@ -43,17 +45,16 @@ nav a {
 }
 
 
-.wrappercontainer{
-    padding-top: 1px;
-    
-    
-}
+.wrappercontainer{ padding-top: 5px;}
+
+
 .wrappercontainer-dark{
     background-image: url(imagens/HEADER-NOTICIAS-2.png);
     background-size: cover;
     background-color:rgb(232, 137, 103);
     color:#fafafa
     }
+
 .wrappercontainer-fixed{
     position: sticky;
     width: 100%;
@@ -104,9 +105,10 @@ border-radius: 50px;
 .header_nav a:hover{
     background-color: rgb(5, 105, 5);
 }
+
 .wrappercontainer-hero {
     background-image: linear-gradient(rgb(244, 239, 239), rgb(248, 209, 139));
-   
+       
 }
 
 .heroBanner{
@@ -114,7 +116,7 @@ border-radius: 50px;
     justify-content: center;
     align-items: left;
     gap: 20rem;
-    
+       
 }
 
 
@@ -137,9 +139,18 @@ border-radius: 50px;
     animation-iteration-count: infinite;
  }
 
- .cursos{
-    text-align: center;
- }
+ .objetivo div {width: 100px;
+    height: 100px;
+    display:inline-block;
+    }
+  
+.objetivo p {text-align: justify;}
+.objetivo h2{text-align: center;}
+
+.exemplo{ background-color:#FED001;}
+
+ .cursos{ text-align: center; }
+
  .cursosContainer{
     display: flex;
     text-align: left;
