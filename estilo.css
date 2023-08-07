@@ -21,9 +21,10 @@ h1{
     text-shadow: 3px 5px 0 rgb(220, 165, 146);
 }
 
-h2,h3{
+h2{
     font-size: 3.2rem;
 }
+ h3 {font-size: 2.0rem;}
 
 
 nav a {
@@ -63,10 +64,6 @@ nav a {
     opacity: .7;
 }
 
-.wrappercontainer-padded{
-    padding-top: 1rem;
-}
-
 
 .container{
     max-width: 127.6rem;
@@ -89,6 +86,8 @@ nav a {
     color: var();
     padding: 0.75rem 0;
 }
+
+.header img:hover {background-color: #FED001;}
 
 .header_nav a{
 padding: .75em 1.15em;
@@ -144,7 +143,9 @@ border-radius: 50px;
     display:inline-block;
     }
   
-.objetivo p {text-align: justify;}
+.objetivo p {text-align: justify;
+             margin-left: 7rem;
+            margin-right: 7rem;}
 .objetivo h2{text-align: center;}
 
 .exemplo{ background-color:#FED001;}
@@ -162,8 +163,14 @@ flex: 1;
 }
  .curso_card img {
     display: block;
-    width: 100%;
- }
+    width: 100%; }
+
+.curso_card img:hover{
+    transform: scale(0.9);
+    border-color: #FED001;
+}
+    
+   
  .curso_card h3{
     font-size: 2.4rem;
  }
@@ -208,7 +215,8 @@ flex: 1;
  
 }
 
-iframe {float: right;
+
+iframe { float: right;
 }
 
     
@@ -221,19 +229,20 @@ a {text-decoration: none ;
         color: orangered;}
 
 
-   
- 
- .contatos_address{
+
+ .contatos_address {
     text-align: right;
     font: 400 1.6rem "inter", sans-serif;
-    padding: 1rem 0;
+    margin-top: 5rem;
+    
  }
  
  .footer{
     font-size: 1.6rem;
     text-align: center;
-    padding: 6.5rem;
+    padding: 5.0rem;
  }
+
  .footer a {
     color: inherit;
  }
